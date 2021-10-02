@@ -21,5 +21,7 @@ int main() {
   // %.2lf displays number up to 2 decimal points
   printf("\nAfter swapping, first number = %.2lf\n", first);
   printf("After swapping, second number = %.2lf", second);
+  printf("Hello Everyone");
+ 
   return 0;
 }
