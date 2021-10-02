@@ -27,14 +27,14 @@ public:
 
 };
 
-void insertAtEnd(node* &head, int d){
+void insertAtEnd(node* &first, int d){
     node* n = new node(d);
 
-    if(head==NULL){
-        head = n;
+    if(first==NULL){
+        first = n;
     }
     else{
-        node* temp = head;
+        node* temp = first;
         while(temp->next != NULL){
             temp = temp->next;
         }
@@ -42,17 +42,17 @@ void insertAtEnd(node* &head, int d){
     }
 }
 
-void printLL(node* head){
-    while(head!=NULL){
-        cout<<head->data<<" ";
-        head = head->next;
+void printLL(node* first){
+    while(first!=NULL){
+        cout<<first->data<<" ";
+        first = first->next;
     }
     cout<<endl;
 }
 
-int length (node* head){
+int length (node*first{
     int count = 0;
-    node* temp = head;
+    node* temp = first;
 
     while(temp!=NULL){
         temp = temp->next;
@@ -92,13 +92,13 @@ node* mergingTwoLL(node* head1, node* head2){
     return newHead;
 }
 
-node* mid(node* head) {
-	if (head == NULL || head->next == NULL) {
-		return head;
+node* mid(node* first) {
+	if (first== NULL || first->next == NULL) {
+		return first;
 	}
 
-	node* slow = head;
-	node* fast = head -> next;
+	node* slow = first;
+	node* fast = first -> next;
 	while (fast != NULL and fast -> next != NULL) {
 		fast = fast -> next -> next;
 		slow = slow -> next;
