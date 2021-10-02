@@ -1,4 +1,4 @@
-#pragma once
+#include<iostream>
 
 /*
 Array ADT Having all main functionalites of STL array. Supports N-Dimensions.
