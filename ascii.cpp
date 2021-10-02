@@ -4,7 +4,7 @@
 #include <stdlib.h>
 int main() {  
     char c;
-    printf("Enter a character: ");
+    printf("Enter a char: ");
     scanf("%c", &c);  
     
     // %d displays the integer value of a character
