@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
+//swapping two numbers
 
 int main() {
-  double first, second, temp;
+  double first, second, t;
   printf("Enter first number: ");
   scanf("%lf", &first);
   printf("Enter second number: ");
   scanf("%lf", &second);
 
   // value of first is assigned to temp
-  temp = first;
+  t = first;
 
   // value of second is assigned to first
   first = second;
