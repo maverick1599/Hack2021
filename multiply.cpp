@@ -9,6 +9,8 @@ int main() {
 
     // %.2lf displays number up to 2 decimal point
     printf("Product = %.2lf", product);
+      printf("Hello Everyone");
+ 
     
     return 0;
 }
